@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TNS Label Records</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Poppins',sans-serif; color:#333; line-height:1.6; background:#f9f9f9;}
+header{background:#111;color:#fff;padding:10px 0;position:sticky;top:0;z-index:1000;}
+nav{width:90%;margin:auto;display:flex;justify-content:space-between;align-items:center;}
+nav h1{font-size:2rem;color:#ff6600;}
+nav ul{list-style:none;display:flex;gap:20px;}
+nav ul li a{text-decoration:none;color:#fff;font-weight:600;transition:color 0.3s ease;}
+nav ul li a:hover, nav ul li a.active{color:#ff6600;}
+.hero{min-height:80vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:0 20px;}
+.hero h1{font-size:3rem;margin-bottom:10px;}
+.hero h2{font-size:1.5rem;margin-bottom:20px;}
+.hero .mottos p{font-size:1rem;margin:5px 0;}
+.social-icons{margin-top:15px;}
+.social-icons a{color:#fff;margin:0 10px;font-size:1.5rem;transition:color 0.3s ease;}
+.social-icons a:hover{color:#ff6600;}
+section{padding:60px 10%;position:relative;}
+section h2{text-align:center;font-size:2rem;margin-bottom:20px;color:#333;}
+ul{padding-left:20px;margin-bottom:20px;}
+li{margin-bottom:10px;}
+.artist-profile{border:1px solid #ddd;border-radius:10px;padding:20px;margin-bottom:30px;background:#fff;transition:transform 0.3s ease, box-shadow 0.3s ease;}
+.artist-profile:hover{transform:translateY(-5px);box-shadow:0 10px 20px rgba(0,0,0,0.1);}
+.artist-profile img{max-width:200px;border-radius:10px;margin-bottom:10px;display:block;}
+.artist-profile h3{margin-bottom:10px;color:#ff6600;}
+.artist-profile p,.artist-profile ul{margin-bottom:10px;}
+.share-buttons{margin-top:10px;}
+.share-buttons a{margin-right:10px;text-decoration:none;color:#111;transition:color 0.3s ease;}
+.share-buttons a:hover{color:#ff6600;}
+form input, form textarea, form button{width:100%;padding:12px;margin:10px 0;border-radius:5px;border:1px solid #ccc;font-size:1rem;}
+form button{background:#ff6600;color:#fff;border:none;cursor:pointer;font-weight:600;transition:background 0.3s ease;}
+form button:hover{background:#e05500;}
+.gallery{display:flex;flex-wrap:wrap;gap:15px;justify-content:center;}
+.gallery img{width:100%;max-width:300px;border-radius:10px;transition:transform 0.3s ease;}
+.gallery img:hover{transform:scale(1.05);}
+footer{text-align:center;padding:20px;background:#111;color:#fff;}
+.video-container{margin:15px 0;}
+.video-container iframe{width:100%;max-width:560px;height:315px;display:block;margin:auto;border-radius:10px;}
+.news-container, .events-container{display:flex; flex-wrap:wrap; gap:20px; justify-content:center;}
+.news-card, .event-card{border:1px solid #ddd; border-radius:10px; padding:15px; max-width:300px; background:#fff;}
+.news-card img, .event-card img{width:100%; border-radius:10px; margin-bottom:10px;}
+@media screen and (max-width:768px){
+  nav ul{flex-direction:column;gap:10px;text-align:center;}
+  .hero h1{font-size:2.2rem;}
+  .hero h2{font-size:1.2rem;}
+  .artist-profile{padding:15px;}
+  form input, form textarea, form button{padding:10px;}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+<nav>
+<h1>TNS</h1>
+<ul>
+<li><a href="#home" class="active">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#rules">Rules</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#collaborations">Collaborations</a></li>
+<li><a href="#artists">Artists</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="#events">Events</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#ideas">Ideas</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/banner.jpg') no-repeat center; background-size:cover;">
+<h1>TNS</h1>
+<h2>Welcome to TNS Label Records</h2>
+<p>Founded in 2020 by Kueth Toang aka <b>Kusa Boyo</b>, TNS Label Records discovers and empowers young talented artists.</p>
+<div class="mottos">
+<p><strong>Motto 1:</strong> “TIME NO SLEEP.”</p>
+<p><strong>Motto 2:</strong> “Raising voices, shaping futures.”</p>
+</div>
+<div class="social-icons">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+<a href="#"><i class="fab fa-tiktok"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-spotify"></i></a>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About TNS Label Records</h2>
+<p>TNS Label Records was co-founded in 2020 by <b>Kueth Toang (Kusa Boyo)</b>. We discover, nurture, and promote young talented artists to unlock their full potential.</p>
+<p>Our mission is to empower creativity and build a future for African music on the global stage.</p>
+</section>
+
+<!-- RULES -->
+<section id="rules">
+<h2>Rules & Responsibilities</h2>
+<h3>Artist Commitments</h3>
+<ul>
+<li>Professionalism & Respect in all interactions.</li>
+<li>Engage creatively while respecting the label's vision.</li>
+<li>Meet deadlines for songs, rehearsals, and promotions.</li>
+<li>Positive social media conduct aligned with label values.</li>
+<li>Confidentiality of projects and collaborations.</li>
+<li>Comply with contracts, including exclusivity and revenue sharing.</li>
+<li>Prioritize health and readiness for performances.</li>
+<li>Align personal branding with TNS Label Records’ image.</li>
+<li>Financial transparency regarding label-related activities.</li>
+<li>Continuous skill development and training participation.</li>
+</ul>
+<h3>Label Commitments</h3>
+<ul>
+<li>Artist development: mentorship, producers, songwriters access.</li>
+<li>Marketing & promotion: digital campaigns, media outreach.</li>
+<li>Transparent financial reporting for artists.</li>
+<li>Legal support for fair contracts and disputes.</li>
+<li>Touring & performance opportunities with full support.</li>
+<li>Merchandise & branding guidance.</li>
+<li>Conflict resolution process.</li>
+<li>Health & safety during label activities.</li>
+<li>Open communication and updates.</li>
+<li>Long-term career planning & global exposure.</li>
+</ul>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+<h2>Talent Incubation & Services</h2>
+<ul>
+<li>Artist discovery and development</li>
+<li>Music recording and production</li>
+<li>Artist management</li>
+<li>Music promotion and marketing</li>
+<li>Concert and event organization</li>
+<li>Collaboration opportunities with African & global artists</li>
+<li>Digital distribution (Spotify, YouTube, Apple Music, etc.)</li>
+<li>Branding and image consultation</li>
+<li>Talent training workshops &amp; stage coaching</li>
+<li>Merchandise development and online sales</li>
+</ul>
+</section>
+
+<!-- COLLABORATIONS -->
+<section id="collaborations">
+<h2>Collaborations & Partnerships</h2>
+<p>TNS Label Records partners with regional and global artists, brands, and media platforms to create new opportunities and amplify the impact of our music.</p>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+<h2>Achievements</h2>
+<ul>
+<li>🏆 Winner at <span style="color:#ff6600; font-weight:bold;">Gambella Got Talent Show</span></li>
+<li>🎖 Recognized by <span style="color:#32cd32; font-weight:bold;">Ethiopian Culture and Tourism</span></li>
+<li>🎵 Kusa Boyo Featured with South Sudanese artist <span style="color:#00bfff; font-weight:bold;">Koko Debest</span> in “We Are Moving”</li>
+<li>🤝 Kusa Boyo Collaborated in <span style="color:#ff1493; font-weight:bold;">South Sudan All Stars</span> project “We Need Peace”</li>
+<li>🔥 Multiple hit songs released by label artists and more in the pipeline</li>
+</ul>
+</section>
+
+<!-- ARTISTS -->
+<section id="artists">
+<h2>Our Artists</h2>
+
+<!-- Artist: Solido Boy -->
+<div class="artist-profile">
+<img src="images/solido_boy.jpg" alt="Solido Boy">
+<h3>Solido Boy</h3>
+<p><b>Bio:</b> Known as "The Nephew", Solido Boy is a rising star blending traditional beats with modern sounds.</p>
+<p><b>Genre:</b> Afrobeat, Hip-Hop</p>
+<p><b>Social Media:</b> 
+  <a href="#" target="_blank">Facebook</a> | 
+  <a href="#" target="_blank">Instagram</a> | 
+  <a href="#" target="_blank">TikTok</a> | 
+  <a href="#" target="_blank">YouTube</a>
+</p>
+<!-- YouTube -->
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID_SOLIDO" title="Solido Boy YouTube Video" frameborder="0" allowfullscreen></iframe>
+</div>
+<!-- Spotify -->
+<div class="video-container">
+  <iframe src="https://open.spotify.com/embed/artist/SPOTIFY_ID_SOLIDO" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+<p><b>Upcoming Shows:</b></p>
+<ul>
+<li>Sept 15, 2025 - Live at Addis Music Fest</li>
+<li>Oct 1, 2025 - Studio Recording Session</li>
+</ul>
+<p><b>Hits:</b> Nyal Ca nen goay, Man gatda</p>
+</div>
+
+<!-- Artist: King Siedee -->
+<div class="artist-profile">
+<img src="images/king_siedee.jpg" alt="King Siedee">
+<h3>King Siedee</h3>
+<p><b>Bio:</b> "The Handsome Artist in Town", King Siedee blends smooth vocals with catchy beats, collaborating internationally.</p>
+<p><b>Genre:</b> Afrobeat, R&B</p>
+<p><b>Social Media:</b> 
+  <a href="#" target="_blank">Facebook</a> | 
+  <a href="#" target="_blank">Instagram</a> | 
+  <a href="#" target="_blank">TikTok</a> | 
+  <a href="#" target="_blank">YouTube</a>
+</p>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID_SIEDEE" title="King Siedee YouTube Video" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="video-container">
+  <iframe src="https://open.spotify.com/embed/artist/SPOTIFY_ID_SIEDEE" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+<p><b>Upcoming Shows:</b></p>
+<ul>
+<li>Sept 20, 2025 - Collaboration Live with Lil Slim</li>
+<li>Oct 10, 2025 - Studio Session & Music Video Shoot</li>
+</ul>
+<p><b>Hits:</b> Ciang, Min goore, Ci kam nhok</p>
+</div>
+
+<!-- Artist: Kusa Boyo -->
+<div class="artist-profile">
+<img src="images/kusa_boyo.jpg" alt="Kusa Boyo">
+<h3>Kusa Boyo</h3>
+<p><b>Bio:</b> Founder of TNS Label Records, Kusa Boyo is a visionary artist blending Afrobeat and traditional South Sudanese sounds.</p>
+<p><b>Genre:</b> Afrobeat, Traditional Fusion</p>
+<p><b>Social Media:</b> 
+  <a href="#" target="_blank">Facebook</a> | 
+  <a href="#" target="_blank">Instagram</a> | 
+  <a href="#" target="_blank">TikTok</a> | 
+  <a href="#" target="_blank">YouTube</a>
+</p>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID_KUSA" title="Kusa Boyo YouTube Video" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="video-container">
+  <iframe src="https://open.spotify.com/embed/artist/SPOTIFY_ID_KUSA" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+<p><b>Upcoming Shows:</b></p>
+<ul>
+<li>Oct 5, 2025 -
+<li>Oct 5, 2025 - Studio Recording Session</li>
+<li>Oct 15, 2025 - Live Concert</li>
+</ul>
+<p><b>Hits:</b> We Are Moving, Peace Anthem</p>
+</div>
+
+<!-- Demo Submission -->
+<div class="artist-profile">
+<h3>Submit Your Demo</h3>
+<p>Upcoming artists can submit demos for consideration:</p>
+<form action="mailto:tnsentertainment3@gmail.com" method="POST" enctype="text/plain">
+<input type="text" placeholder="Your Name" name="name" required>
+<input type="email" placeholder="Your Email" name="email" required>
+<input type="text" placeholder="Your Genre" name="genre" required>
+<input type="text" placeholder="Song/Project Name" name="song" required>
+<textarea placeholder="Message or Notes" name="message" required></textarea>
+<button type="submit">Submit Demo</button>
+</form>
+</div>
+
+</section>
+
+<!-- NEWS -->
+<section id="news">
+<h2>News & Updates</h2>
+<div class="news-container">
+  <div class="news-card">
+    <img src="images/news_placeholder1.jpg" alt="News 1">
+    <p>King Siedee collaborates with Lil Slim – Sept 1, 2025</p>
+  </div>
+  <div class="news-card">
+    <img src="images/news_placeholder2.jpg" alt="News 2">
+    <p>Solido Boy performs at Addis Music Fest – Sept 15, 2025</p>
+  </div>
+  <div class="news-card">
+    <img src="images/news_placeholder3.jpg" alt="News 3">
+    <p>New Music Video releases from Kusa Boyo – Oct 5, 2025</p>
+  </div>
+</div>
+</section>
+
+<!-- EVENTS / UPCOMING SHOWS -->
+<section id="events">
+<h2>Upcoming Shows & Events</h2>
+<div class="events-container">
+  <div class="event-card">
+    <img src="images/event_placeholder1.jpg" alt="Event 1">
+    <p>Sept 15, 2025 - Addis Music Fest</p>
+  </div>
+  <div class="event-card">
+    <img src="images/event_placeholder2.jpg" alt="Event 2">
+    <p>Sept 20, 2025 - King Siedee & Lil Slim Live</p>
+  </div>
+  <div class="event-card">
+    <img src="images/event_placeholder3.jpg" alt="Event 3">
+    <p>Oct 1-15, 2025 - Studio Sessions & Music Video Shoot</p>
+  </div>
+</div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="images/mic_performance.jpg" alt="Performance with Microphone">
+<img src="images/studio_dark_person.jpg" alt="Studio Session">
+<img src="images/ethiopia_map_logo.jpg" alt="Ethiopia Map Logo">
+</div>
+</section>
+
+<!-- IDEAS / SUGGESTIONS -->
+<section id="ideas">
+<h2>Share Your Ideas</h2>
+<p>We welcome suggestions from fans, artists, and collaborators! Fill in your ideas below:</p>
+<form action="mailto:tnsentertainment3@gmail.com" method="POST" enctype="text/plain" style="max-width:600px; margin:auto;">
+  <input type="text" placeholder="Your Name" name="name" required>
+  <input type="email" placeholder="Your Email" name="email" required>
+  <textarea placeholder="Your Idea or Suggestion" name="idea" required></textarea>
+  <button type="submit">Submit Idea</button>
+</form>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Email: <a href="mailto:tnsentertainment3@gmail.com">tnsentertainment3@gmail.com</a></p>
+<p>Phone: +251 937 189 841</p>
+<p>Telegram/WhatsApp: +251 937 189 841</p>
+
+<form action="mailto:tnsentertainment3@gmail.com" method="POST" enctype="text/plain">
+<input type="text" placeholder="Your Name" name="name" required>
+<input type="email" placeholder="Your Email" name="email" required>
+<textarea placeholder="Your Business Inquiry" name="message" required></textarea>
+<button type="submit">Send Inquiry</button>
+</form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2025 TNS Label Records</p>
+</footer>
+
+</body>
+</html>
